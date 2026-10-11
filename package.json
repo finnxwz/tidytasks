@@ -1,0 +1,23 @@
+{
+  "name": "tidytasks",
+  "version": "0.1.5",
+  "private": true,
+  "description": "Automatically move completed tasks to the bottom of each Markdown task list, keeping subtasks attached and surrounding text in place.",
+  "type": "module",
+  "scripts": {
+    "dev": "node esbuild.config.mjs",
+    "build": "tsc --noEmit && node esbuild.config.mjs production",
+    "test": "tsx --test tests/*.test.ts tests/*.test.mjs",
+    "lint": "eslint ."
+  },
+  "devDependencies": {
+    "@types/node": "^24.0.0",
+    "esbuild": "^0.25.5",
+    "eslint": "^9.39.5",
+    "eslint-plugin-obsidianmd": "^0.4.2",
+    "globals": "^17.13.0",
+    "obsidian": "latest",
+    "tsx": "^4.20.0",
+    "typescript": "^5.8.3"
+  }
+}
