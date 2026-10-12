@@ -4,7 +4,7 @@
   "version": "0.1.5",
   "minAppVersion": "1.6.0",
   "description": "Automatically move completed tasks to the bottom of each Markdown task list, keeping subtasks attached and surrounding text in place.",
-  "author": "Finn-Christopher-Krause | @finnxwz",
+  "author": "Finn-Christopher-Krause",
   "authorUrl": "https://github.com/finnxwz",
   "isDesktopOnly": false
 }
