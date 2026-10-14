@@ -54,54 +54,6 @@ TidyTasks changes the actual Markdown file, not just its display. Keep backups a
 
 Undoing only a reordering does not restart automatic sorting: the statuses have not changed. Undoing a checkbox/status change is a real status change and can trigger sorting. Actual Obsidian undo grouping still needs manual verification. The tracker conservatively recognizes existing tasks by their parent text; changing the text and status simultaneously may be treated as a new task rather than an existing status change.
 
-## Develop on Windows
-
-Requires a supported Node.js LTS release with npm.
-
-```powershell
-npm.cmd install
-npm.cmd test
-npm.cmd run lint
-npm.cmd run build
-npm.cmd run dev
-```
-
-Copy `main.js` and `manifest.json` into `<test-vault>/.obsidian/plugins/tidytasks/`. In Obsidian, enable community plugins and enable **TidyTasks**. Reload the plugin after rebuilding. Stop the watch process with Ctrl+C.
-
-Each successful `npm.cmd run build` automatically increments the patch version, for example `0.1.0` → `0.1.1` → `0.1.2`. It synchronizes `manifest.json`, `package.json`, `package-lock.json` and `versions.json`. Failed builds, tests and the `dev` watch mode do not increment versions. Copy `main.js` and the updated `manifest.json` when installing a new build. Restart Obsidian after changing the installed manifest so the displayed version is refreshed.
-
-No `styles.css` is needed. The plugin uses Obsidian's native task rendering without additional animations.
-
-## Manual test checklist
-
-1. Check/uncheck tasks in Source mode, Live Preview and Reading view.
-2. Type continuously: nothing should move until the typing pause expires.
-3. Verify children, continuations, headings, prose, code blocks and blank lines.
-4. Verify cursor, multiple selections, scrolling and undo behavior.
-5. Open the same note in multiple panes; switch notes during the debounce.
-6. Disable automatic sorting; verify manual command still works.
-7. Disable/unload the plugin with a pending timer; no later edit should occur.
-8. Test Android/iOS touch checkboxes, software keyboard and IME/composition input.
-9. Test external edits/sync and a deleted or renamed note during the delay.
-10. Open an unsorted note and edit prose: no automatic sorting should happen. Then change a parent status.
-11. Complete A then B, including rapid clicks: verify completed B appears above A. Verify open / in-progress / completed groups.
-12. Exclude a note via its file menu or settings, reload and verify the exclusion persists. Test the optional property override.
-
-## Before publishing
-
-This is a development version, not yet a reviewed Community plugin.
-
-- Choose/add a `LICENSE` file before publication.
-- Check that the name and ID are available in the community directory.
-- Test supported Obsidian versions, desktop and real mobile devices. `minAppVersion` currently targets 1.6.0; raise it if compatibility testing requires it.
-- Re-run the Obsidian-specific ESLint review rules before submission.
-- Create a public GitHub repository and a release whose tag exactly matches the built `manifest.json` (no `v` prefix). Build first, then create the matching release tag.
-- Attach `main.js` and `manifest.json` to the release; keep the manifest in the repository root as well.
-- Submit through the current process documented at https://docs.obsidian.md/plugins/releasing/submit-plugin.
-- Review developer policies: https://docs.obsidian.md/community-directory/developer-policies.
-
-License selection is intentionally pending the author's decision. Do not publish this project as a licensed community release until a license is added.
-
 ## About the author
 
 Created by [Finn-Christopher-Krause / @finnxwz](https://github.com/finnxwz). TidyTasks is a small, focused project built around a simple idea: completed tasks should move out of the way without changing how you write your notes.
