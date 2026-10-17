@@ -50,11 +50,11 @@ becomes:
  
 ## 💻 Installation
 
-- **directly in Obsidian:** 
-	- Settings → Community plugins → Browse* → search for **TidyTasks** → *Install* → **Enable**
-- **via GitHub:**
-	- Copy `manifest.json`, `main.js` and `styles.css` into `<your vault>/.obsidian/plugins/notemoji/`.
-	- Reload Obsidian and enable **TidyTasks** under *Settings → Community plugins*.
+**directly in Obsidian:** 
+- Settings → Community plugins → Browse* → search for **TidyTasks** → *Install* → **Enable**
+**via GitHub:**
+- Copy `manifest.json`, `main.js` and `styles.css` into `<your vault>/.obsidian/plugins/notemoji/`.
+- Reload Obsidian and enable **TidyTasks** under *Settings → Community plugins*.
 
 ## 😎 You might also like some other plugins I've made:
 
