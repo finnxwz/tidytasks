@@ -66,4 +66,3 @@ My plugins are designed to work across Windows, macOS, Android, and iOS.
 ## ⚠️ Feedback and support
 
 Found a bug or have a suggestion? Open an issue in this repository's **GitHub Issues** tab. Include your Obsidian version, device/platform, a small Markdown example and what you expected to happen. Please remove private note content before sharing examples.
-![[tidytasks readme meme.png]]
