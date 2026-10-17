@@ -52,6 +52,7 @@ becomes:
 
 **directly in Obsidian:** 
 - Settings → Community plugins → Browse* → search for **TidyTasks** → *Install* → **Enable**
+
 **via GitHub:**
 - Copy `manifest.json`, `main.js` and `styles.css` into `<your vault>/.obsidian/plugins/notemoji/`.
 - Reload Obsidian and enable **TidyTasks** under *Settings → Community plugins*.
