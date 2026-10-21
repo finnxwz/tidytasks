@@ -59,7 +59,7 @@ becomes:
 
 ## 😎 You might also like some other plugins I've made:
 
-- **[Notemoji](obsidian://show-plugin?id=notemoji)** - Assign emoji icons to notes and folders in the file explorer to make your vault feel a little cozier. [Open in browser](https://community.obsidian.md/plugins/notemoji)
+- **[Notemoji](obsidian://show-plugin?id=notemoji)** - Assign emoji icons to notes and folders in the file explorer to make your vault feel a little cozier.
 
 My plugins are designed to work across Windows, macOS, Android, and iOS.
 
