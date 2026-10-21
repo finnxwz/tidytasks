@@ -59,7 +59,7 @@ becomes:
 
 ## 😎 You might also like some other plugins I've made:
 
-- **[TidyTasks](obsidian://show-plugin?id=tidytasks)** - Automatically move completed tasks to the bottom of each Markdown task list, keeping subtasks attached and surrounding text in place.
+- **[Notemoji](obsidian://show-plugin?id=notemoji)** - Assign emoji icons to notes and folders in the file explorer to make your vault feel a little cozier. [Open in browser](https://community.obsidian.md/plugins/notemoji)
 
 My plugins are designed to work across Windows, macOS, Android, and iOS.
 
