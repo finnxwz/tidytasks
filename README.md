@@ -9,7 +9,7 @@ Open tasks come first, in-progress tasks follow, and completed tasks come last. 
 
 - After downloading and activating TidyTasks, you're all set. Every new list now sorts itself automatically.
 - Lists that existed before installation will also sort themselves the next time a task’s status changes (just tick a checkbox and untick it again).
-- You can also exlude bestimmte notes from automatic sorting with right-clicking on them und dann "Exclude note from automatic sorting". 
+- You can also exlude specific notes from automatic sorting with right-clicking on them in the file browser and selecting “Exclude note from automatic sorting”.
 
 
 ## 💡 Additional info
