@@ -1,6 +1,6 @@
 {
   "name": "tidytasks",
-  "version": "0.1.5",
+  "version": "1.0.0",
   "private": true,
   "description": "Automatically move completed tasks to the bottom of each Markdown task list, keeping subtasks attached and surrounding text in place.",
   "type": "module",
