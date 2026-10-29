@@ -1,7 +1,7 @@
 {
   "id": "tidytasks",
   "name": "TidyTasks",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "minAppVersion": "1.6.0",
   "description": "Automatically move completed tasks to the bottom of each Markdown task list, keeping subtasks attached and surrounding text in place.",
   "author": "Finn-Christopher-Krause",
