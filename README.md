@@ -23,6 +23,7 @@ I’ve added some settings to the plugin menu that let you personalize your Tidy
 ## 💻 You might also like some other plugins I've made:
 
 - **[Notemoji](obsidian://show-plugin?id=notemoji)** - Assign emoji icons to notes and folders in the file explorer to make your vault feel a little cozier.
+- **[Cloudboard](obsidian://show-plugin?id=cloudboard)** - Create Pinterest-style image boards with both local and online images, without requiring the use of Obsidian Canvas.
 
 Thank you for using my plugins and supporting my work! My plugins are designed to work across Windows, macOS, Android, and iOS.
 
