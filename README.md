@@ -1,10 +1,11 @@
-# TidyTasks
+![TidyTasks Banner](https://raw.githubusercontent.com/finnxwz/tidytasks/main/tidytasks-banner.png)
 
 **Automatically move completed tasks to the bottom of each Markdown task list, keeping subtasks attached and surrounding text in place.**
 
 Open tasks come first, in-progress tasks follow, and completed tasks come last. Within the completed group, the most recently completed task appears first.
 
 ![TidyTasks Demo](https://raw.githubusercontent.com/finnxwz/tidytasks/main/tidytasks-demo.gif)
+
 ## 🖱️ How to use
 
 - After downloading and activating TidyTasks, you're all set. Every new list now sorts itself automatically.
